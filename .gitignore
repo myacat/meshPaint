@@ -61,3 +61,4 @@ ExportedObj/
 *.app
 
 *.exe
+.DS_Store
