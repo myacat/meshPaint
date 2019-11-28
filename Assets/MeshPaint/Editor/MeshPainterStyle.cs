@@ -283,5 +283,6 @@ public class MeshPainterStyle : Editor
         var bytes = MaskTex.EncodeToPNG();
         File.WriteAllBytes(path, bytes);
         AssetDatabase.ImportAsset(path, ImportAssetOptions.ForceUpdate);//刷新
+        Debug.Log("SaveTexture");
     }
 }
